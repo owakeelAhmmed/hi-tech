@@ -11,7 +11,7 @@ import Link from "next/link";
 const CategoricCard = ({ allProduct }) => {
   return (
     <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-y-14">
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border  card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none ">
           <Link href="/components/ui/cpucategory/cpu">
             <div className="flex justify-center items-center">
@@ -31,7 +31,7 @@ const CategoricCard = ({ allProduct }) => {
           </Link>
         </div>
       </div>
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
           <Link href="/components/ui/motherboardcategory/motherboard">
             <div className="flex justify-center items-center">
@@ -51,7 +51,7 @@ const CategoricCard = ({ allProduct }) => {
           </Link>
         </div>
       </div>
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
           <Link href="/components/ui/ramcategory/ramCategory">
             <div className="flex justify-center items-center">
@@ -71,7 +71,7 @@ const CategoricCard = ({ allProduct }) => {
           </Link>
         </div>
       </div>
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
           <Link href="/components/ui/powerUniteCategory/powerUniteCard">
             <div className="flex justify-center items-center">
@@ -91,7 +91,7 @@ const CategoricCard = ({ allProduct }) => {
           </Link>
         </div>
       </div>
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
           <Link href="/components/ui/monitorCategory/monitorCard">
             <div className="flex justify-center items-center">
@@ -111,7 +111,7 @@ const CategoricCard = ({ allProduct }) => {
           </Link>
         </div>
       </div>
-      <div className="group card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+      <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
           <Link href="/components/ui/storageCategory/storageCard">
             <div className="flex justify-center items-center">

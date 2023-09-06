@@ -64,7 +64,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/components/ui/cpucategory/cpu">CPU</Link>
@@ -95,7 +95,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-secondary">Pc Builder</button>
+        <Link href="/components/ui/pcbuilder/pcbuilderpage">
+          <button className="btn btn-secondary bg-[#e11d48]">Pc Builder</button>
+        </Link>
       </div>
     </div>
   );
