@@ -7,13 +7,20 @@ import Icon5 from "@/assets/Icon/pws.png";
 import Icon6 from "@/assets/Icon/ram.png";
 import Image from "next/image";
 import Link from "next/link";
+import { useGetProductsQuery } from "@/redux/api/api";
 
 const CategoricCard = ({ allProduct }) => {
+  const { data, isLoading, isError, error } = useGetProductsQuery();
+
+  const productCards = data?.filter(
+    (product) => product.category === "Computer Processor"
+  );
+
   return (
     <div className="justify-items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-y-14">
       <div className="group border  card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none ">
-          <Link href="/components/ui/cpucategory/cpu">
+          <Link href="/cpucategory/cpu">
             <div className="flex justify-center items-center">
               <Image
                 className=""
@@ -33,7 +40,7 @@ const CategoricCard = ({ allProduct }) => {
       </div>
       <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
-          <Link href="/components/ui/motherboardcategory/motherboard">
+          <Link href="/motherboardcategory/motherboard">
             <div className="flex justify-center items-center">
               <Image
                 className=""
@@ -53,7 +60,7 @@ const CategoricCard = ({ allProduct }) => {
       </div>
       <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
-          <Link href="/components/ui/ramcategory/ramCategory">
+          <Link href="/ramcategory/ramCategory">
             <div className="flex justify-center items-center">
               <Image
                 className=""
@@ -73,7 +80,7 @@ const CategoricCard = ({ allProduct }) => {
       </div>
       <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
-          <Link href="/components/ui/powerUniteCategory/powerUniteCard">
+          <Link href="/powerUniteCategory/powerUniteCard">
             <div className="flex justify-center items-center">
               <Image
                 className=""
@@ -93,7 +100,7 @@ const CategoricCard = ({ allProduct }) => {
       </div>
       <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
-          <Link href="/components/ui/monitorCategory/monitorCard">
+          <Link href="/monitorCategory/monitorCard">
             <div className="flex justify-center items-center">
               <Image
                 className=""
@@ -113,7 +120,7 @@ const CategoricCard = ({ allProduct }) => {
       </div>
       <div className="group border card w-72 bg-base-100 shadow-xl transform hover:scale-110 hover:shadow-2xl transition-transform duration-300 ease-in-out">
         <div className="card-body cursor-pointer select-none">
-          <Link href="/components/ui/storageCategory/storageCard">
+          <Link href="/storageCategory/storageCard">
             <div className="flex justify-center items-center">
               <Image
                 className=""

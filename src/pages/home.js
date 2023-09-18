@@ -1,7 +1,7 @@
-import CarouselPage from "../Shared/carousel";
-import Navbar from "../Shared/navbar";
-import FeaturedCategories from "./featuredCategories";
+import CarouselPage from "@/components/shared/carousel";
 import Footer from "./footer";
+import Navbar from "@/components/shared/navbar";
+import FeaturedCategories from "./featuredCategories";
 
 const Home = () => {
   return (

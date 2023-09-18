@@ -1,9 +1,9 @@
+import Navbar from "@/components/shared/navbar";
 import Image from "next/image";
-import Navbar from "../../Shared/navbar";
 
-const MotherboardCard = ({ allProduct }) => {
+const MonitorCard = ({ allProduct }) => {
   const cpuProducts = allProduct?.filter(
-    (product) => product.category === "Motherboard"
+    (product) => product.category === "Monitor"
   );
 
   return (
@@ -11,9 +11,7 @@ const MotherboardCard = ({ allProduct }) => {
       <Navbar />
       <div className="mt-32 ">
         <div className="mb-11">
-          <h1 className="text-center text-5xl font-bold">
-            Motherboard Category
-          </h1>
+          <h1 className="text-center text-5xl font-bold">Monitor Category</h1>
           <p className="text-center text-2xl">
             Get Your Desired Product from Featured Category!
           </p>
@@ -47,7 +45,7 @@ const MotherboardCard = ({ allProduct }) => {
   );
 };
 
-export default MotherboardCard;
+export default MonitorCard;
 
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products");

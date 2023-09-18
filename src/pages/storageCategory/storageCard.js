@@ -1,9 +1,9 @@
+import Navbar from "@/components/shared/navbar";
 import Image from "next/image";
-import Navbar from "../../Shared/navbar";
 
-const CpuCategory = ({ allProduct }) => {
+const StorageCard = ({ allProduct }) => {
   const cpuProducts = allProduct?.filter(
-    (product) => product.category === "Computer Processor"
+    (product) => product.category === "Storage Device"
   );
 
   return (
@@ -11,7 +11,7 @@ const CpuCategory = ({ allProduct }) => {
       <Navbar />
       <div className="mt-32 ">
         <div className="mb-11">
-          <h1 className="text-center text-5xl font-bold">CPU Category</h1>
+          <h1 className="text-center text-5xl font-bold">Storage Category</h1>
           <p className="text-center text-2xl">
             Get Your Desired Product from Featured Category!
           </p>
@@ -30,7 +30,7 @@ const CpuCategory = ({ allProduct }) => {
                     <h2 className="card-title">{product.title}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
-                      <button className="btn btn-sm btn-error text-white bg-[#eb3b5a]">
+                      <button className="btn btn-sm text-white bg-[#eb3b5a]">
                         Buy Now
                       </button>
                     </div>
@@ -45,7 +45,7 @@ const CpuCategory = ({ allProduct }) => {
   );
 };
 
-export default CpuCategory;
+export default StorageCard;
 
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products");

@@ -1,5 +1,5 @@
+import CategoricCard from "@/components/shared/categorieCard";
 import { BsFillCpuFill, BsFillMotherboardFill } from "react-icons/bs";
-import CategoricCard from "../Shared/categorieCard";
 
 const FeaturedCategories = () => {
   return (

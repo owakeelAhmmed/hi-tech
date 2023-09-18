@@ -26,33 +26,27 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/components/ui/cpucategory/cpu">CPU</Link>
+              <Link href="/cpucategory/cpu">CPU</Link>
             </li>
             <li>
-              <Link href="/components/ui/motherboardcategory/motherboard">
-                Motherboard
-              </Link>
+              <Link href="/motherboardcategory/motherboard">Motherboard</Link>
             </li>
             <li>
-              <Link href="/components/ui/ramcategory/ramCategory">RAM</Link>
+              <Link href="/ramcategory/ramCategory">RAM</Link>
             </li>
             <li>
-              <Link href="/components/ui/powerUniteCategory/powerUniteCard">
+              <Link href="/powerUniteCategory/powerUniteCard">
                 Power Supply
               </Link>
             </li>
             <li>
-              <Link href="/components/ui/storageCategory/storageCard">
-                Storage
-              </Link>
+              <Link href="/storageCategory/storageCard">Storage</Link>
             </li>
             <li>
-              <Link href="/components/ui/monitorCategory/monitorCard">
-                Monitor
-              </Link>
+              <Link href="/monitorCategory/monitorCard">Monitor</Link>
             </li>
           </ul>
         </div>
@@ -67,35 +61,27 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/components/ui/cpucategory/cpu">CPU</Link>
+            <Link href="/cpucategory/cpu">CPU</Link>
           </li>
           <li>
-            <Link href="/components/ui/motherboardcategory/motherboard">
-              Motherboard
-            </Link>
+            <Link href="/motherboardcategory/motherboard">Motherboard</Link>
           </li>
           <li>
-            <Link href="/components/ui/ramcategory/ramCategory">RAM</Link>
+            <Link href="/ramcategory/ramCategory">RAM</Link>
           </li>
           <li>
-            <Link href="/components/ui/powerUniteCategory/powerUniteCard">
-              Power Supply
-            </Link>
+            <Link href="/powerUniteCategory/powerUniteCard">Power Supply</Link>
           </li>
           <li>
-            <Link href="/components/ui/storageCategory/storageCard">
-              Storage
-            </Link>
+            <Link href="/storageCategory/storageCard">Storage</Link>
           </li>
           <li>
-            <Link href="/components/ui/monitorCategory/monitorCard">
-              Monitor
-            </Link>
+            <Link href="/monitorCategory/monitorCard">Monitor</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/components/ui/pcbuilder/pcbuilderpage">
+        <Link href="/pcbuilder/pcbuilderpage">
           <button className="btn btn-secondary bg-[#e11d48]">Pc Builder</button>
         </Link>
       </div>

@@ -1,9 +1,13 @@
+import Navbar from "@/components/shared/navbar";
+import { useGetProductsQuery } from "@/redux/api/api";
 import Image from "next/image";
-import Navbar from "../../Shared/navbar";
+import Link from "next/link";
 
-const StorageCard = ({ allProduct }) => {
-  const cpuProducts = allProduct?.filter(
-    (product) => product.category === "Storage Device"
+const CpuCategory = () => {
+  const { data, isLoading, isError, error } = useGetProductsQuery();
+
+  const cpuProducts = data?.filter(
+    (product) => product.category === "Computer Processor"
   );
 
   return (
@@ -11,7 +15,7 @@ const StorageCard = ({ allProduct }) => {
       <Navbar />
       <div className="mt-32 ">
         <div className="mb-11">
-          <h1 className="text-center text-5xl font-bold">Storage Category</h1>
+          <h1 className="text-center text-5xl font-bold">CPU Category</h1>
           <p className="text-center text-2xl">
             Get Your Desired Product from Featured Category!
           </p>
@@ -30,9 +34,11 @@ const StorageCard = ({ allProduct }) => {
                     <h2 className="card-title">{product.title}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
-                      <button className="btn btn-sm text-white bg-[#eb3b5a]">
-                        Buy Now
-                      </button>
+                      <Link href={`/components/ui/detail/${product.id}`}>
+                        <button className="btn btn-sm btn-error text-white bg-[#eb3b5a]">
+                          More Details
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -45,16 +51,16 @@ const StorageCard = ({ allProduct }) => {
   );
 };
 
-export default StorageCard;
+export default CpuCategory;
 
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+// export const getStaticProps = async () => {
+//   const res = await fetch("http://localhost:5000/products");
 
-  const data = await res.json();
+//   const data = await res.json();
 
-  return {
-    props: {
-      allProduct: data,
-    },
-  };
-};
+//   return {
+//     props: {
+//       allProduct: data,
+//     },
+//   };
+// };

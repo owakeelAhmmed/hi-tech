@@ -1,9 +1,15 @@
 import Image from "next/image";
-import Navbar from "../../Shared/navbar";
 import Image1 from "@/assets/Icon/cpu.png";
 import Link from "next/link";
+import { useDispatch, useSelector } from "react-redux";
+
+import Navbar from "@/components/shared/navbar";
 
 const PcBuilderPage = () => {
+  const selectedProducts = useSelector(
+    (state) => state.products.selectedProducts
+  );
+
   return (
     <div className="h-[calc(100vh-80px)] max-w-7xl mx-auto">
       <Navbar />
@@ -23,10 +29,10 @@ const PcBuilderPage = () => {
             <div className="card-body ">
               <div className="flex items-center justify-between">
                 <div className="flex justify-around gap-x-2">
-                  <h1>CPU</h1>
+                  <h1>CPU:{selectedProducts?.category}</h1>
                   <div className="badge text-white bg-[#e11d48]">Required</div>
                 </div>
-                <Link href="/components/ui/pcbuilder/allproduct/cpuPage">
+                <Link href="/pcbuilder/allproduct/cpuPage">
                   <button className="btn btn-sm btn-secondary bg-[#e11d48]">
                     Select
                   </button>
@@ -42,14 +48,14 @@ const PcBuilderPage = () => {
 
 export default PcBuilderPage;
 
-// export const getStaticProps = async () => {
-//   const res = await fetch("http://localhost:5000/products");
+export const getStaticProps = async () => {
+  const res = await fetch("http://localhost:5000/products");
 
-//   const data = await res.json();
+  const data = await res.json();
 
-//   return {
-//     props: {
-//       allProduct: data,
-//     },
-//   };
-// };
+  return {
+    props: {
+      allProduct: data,
+    },
+  };
+};

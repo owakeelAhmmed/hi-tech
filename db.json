@@ -8,7 +8,7 @@
       "category": "Computer Processor",
       "price": 399.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/cpu_image1.jpg"
     },
     {
@@ -19,7 +19,7 @@
       "category": "Computer Processor",
       "price": 549.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/cpu_image2.jpg"
     },
     {
@@ -30,7 +30,7 @@
       "category": "Computer Processor",
       "price": 349.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/cpu_image3.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "category": "Computer Processor",
       "price": 299.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/cpu_image4.jpg"
     },
     {
@@ -52,7 +52,7 @@
       "category": "Computer Processor",
       "price": 279.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.3,
+      "rating": 4.3,
       "image": "https://example.com/cpu_image5.jpg"
     },
     {
@@ -63,7 +63,7 @@
       "category": "Computer Processor",
       "price": 449.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/cpu_image6.jpg"
     },
     {
@@ -74,7 +74,7 @@
       "category": "Computer Processor",
       "price": 129.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.0,
+      "rating": 4.0,
       "image": "https://example.com/cpu_image7.jpg"
     },
     {
@@ -85,7 +85,7 @@
       "category": "Computer Processor",
       "price": 149.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 3.8,
+      "rating": 3.8,
       "image": "https://example.com/cpu_image8.jpg"
     },
     {
@@ -96,7 +96,7 @@
       "category": "Computer Processor",
       "price": 479.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.9,
+      "rating": 4.9,
       "image": "https://example.com/cpu_image9.jpg"
     },
     {
@@ -107,7 +107,7 @@
       "category": "Computer Processor",
       "price": 749.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 5.0,
+      "rating": 5.0,
       "image": "https://example.com/cpu_image10.jpg"
     },
     {
@@ -118,7 +118,7 @@
       "category": "Motherboard",
       "price": 179.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/motherboard_image1.jpg"
     },
     {
@@ -129,7 +129,7 @@
       "category": "Motherboard",
       "price": 129.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/motherboard_image2.jpg"
     },
     {
@@ -140,7 +140,7 @@
       "category": "Motherboard",
       "price": 239.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/motherboard_image3.jpg"
     },
     {
@@ -151,7 +151,7 @@
       "category": "Motherboard",
       "price": 149.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/motherboard_image4.jpg"
     },
     {
@@ -162,7 +162,7 @@
       "category": "Motherboard",
       "price": 209.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/motherboard_image5.jpg"
     },
     {
@@ -173,7 +173,7 @@
       "category": "Motherboard",
       "price": 299.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.9,
+      "rating": 4.9,
       "image": "https://example.com/motherboard_image6.jpg"
     },
     {
@@ -184,7 +184,7 @@
       "category": "Motherboard",
       "price": 119.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/motherboard_image7.jpg"
     },
     {
@@ -195,7 +195,7 @@
       "category": "Motherboard",
       "price": 99.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.0,
+      "rating": 4.0,
       "image": "https://example.com/motherboard_image8.jpg"
     },
     {
@@ -206,7 +206,7 @@
       "category": "Motherboard",
       "price": 349.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/motherboard_image9.jpg"
     },
     {
@@ -217,7 +217,7 @@
       "category": "Motherboard",
       "price": 199.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/motherboard_image10.jpg"
     },
     {
@@ -228,7 +228,7 @@
       "category": "RAM",
       "price": 79.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/ram_image1.jpg"
     },
     {
@@ -239,7 +239,7 @@
       "category": "RAM",
       "price": 129.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/ram_image2.jpg"
     },
     {
@@ -250,7 +250,7 @@
       "category": "RAM",
       "price": 49.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.3,
+      "rating": 4.3,
       "image": "https://example.com/ram_image3.jpg"
     },
     {
@@ -261,7 +261,7 @@
       "category": "RAM",
       "price": 199.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/ram_image4.jpg"
     },
     {
@@ -272,7 +272,7 @@
       "category": "RAM",
       "price": 69.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.2,
+      "rating": 4.2,
       "image": "https://example.com/ram_image5.jpg"
     },
     {
@@ -283,7 +283,7 @@
       "category": "RAM",
       "price": 179.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/ram_image6.jpg"
     },
     {
@@ -294,7 +294,7 @@
       "category": "RAM",
       "price": 159.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.9,
+      "rating": 4.9,
       "image": "https://example.com/ram_image7.jpg"
     },
     {
@@ -305,7 +305,7 @@
       "category": "RAM",
       "price": 89.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/ram_image8.jpg"
     },
     {
@@ -316,7 +316,7 @@
       "category": "RAM",
       "price": 219.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/ram_image9.jpg"
     },
     {
@@ -327,7 +327,7 @@
       "category": "RAM",
       "price": 139.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/ram_image10.jpg"
     },
     {
@@ -338,7 +338,7 @@
       "category": "Power Supply Unit",
       "price": 49.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/psu_image1.jpg"
     },
     {
@@ -349,7 +349,7 @@
       "category": "Power Supply Unit",
       "price": 119.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/psu_image2.jpg"
     },
     {
@@ -360,7 +360,7 @@
       "category": "Power Supply Unit",
       "price": 99.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/psu_image3.jpg"
     },
     {
@@ -371,7 +371,7 @@
       "category": "Power Supply Unit",
       "price": 39.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.3,
+      "rating": 4.3,
       "image": "https://example.com/psu_image4.jpg"
     },
     {
@@ -382,7 +382,7 @@
       "category": "Power Supply Unit",
       "price": 109.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/psu_image5.jpg"
     },
     {
@@ -393,7 +393,7 @@
       "category": "Power Supply Unit",
       "price": 89.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/psu_image6.jpg"
     },
     {
@@ -404,7 +404,7 @@
       "category": "Power Supply Unit",
       "price": 79.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/psu_image7.jpg"
     },
     {
@@ -415,7 +415,7 @@
       "category": "Power Supply Unit",
       "price": 89.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.3,
+      "rating": 4.3,
       "image": "https://example.com/psu_image8.jpg"
     },
     {
@@ -426,7 +426,7 @@
       "category": "Power Supply Unit",
       "price": 139.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.9,
+      "rating": 4.9,
       "image": "https://example.com/psu_image9.jpg"
     },
     {
@@ -437,7 +437,7 @@
       "category": "Power Supply Unit",
       "price": 69.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/psu_image10.jpg"
     },
     {
@@ -448,7 +448,7 @@
       "category": "Storage Device",
       "price": 149.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/storage_image1.jpg"
     },
     {
@@ -459,7 +459,7 @@
       "category": "Storage Device",
       "price": 239.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/storage_image2.jpg"
     },
     {
@@ -470,7 +470,7 @@
       "category": "Storage Device",
       "price": 99.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/storage_image3.jpg"
     },
     {
@@ -481,7 +481,7 @@
       "category": "Storage Device",
       "price": 79.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/storage_image4.jpg"
     },
     {
@@ -492,7 +492,7 @@
       "category": "Storage Device",
       "price": 109.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/storage_image5.jpg"
     },
     {
@@ -503,7 +503,7 @@
       "category": "Storage Device",
       "price": 49.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/storage_image6.jpg"
     },
     {
@@ -514,7 +514,7 @@
       "category": "Storage Device",
       "price": 69.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/storage_image7.jpg"
     },
     {
@@ -525,7 +525,7 @@
       "category": "Storage Device",
       "price": 89.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/storage_image8.jpg"
     },
     {
@@ -536,7 +536,7 @@
       "category": "Storage Device",
       "price": 189.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/storage_image9.jpg"
     },
     {
@@ -547,7 +547,7 @@
       "category": "Storage Device",
       "price": 149.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/storage_image10.jpg"
     },
     {
@@ -558,7 +558,7 @@
       "category": "Monitor",
       "price": 349.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.7,
+      "rating": 4.7,
       "image": "https://example.com/monitor_image1.jpg"
     },
     {
@@ -569,7 +569,7 @@
       "category": "Monitor",
       "price": 379.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.8,
+      "rating": 4.8,
       "image": "https://example.com/monitor_image2.jpg"
     },
     {
@@ -580,7 +580,7 @@
       "category": "Monitor",
       "price": 499.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/monitor_image3.jpg"
     },
     {
@@ -591,7 +591,7 @@
       "category": "Monitor",
       "price": 259.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/monitor_image4.jpg"
     },
     {
@@ -602,7 +602,7 @@
       "category": "Monitor",
       "price": 449.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.5,
+      "rating": 4.5,
       "image": "https://example.com/monitor_image5.jpg"
     },
     {
@@ -613,7 +613,7 @@
       "category": "Monitor",
       "price": 699.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.9,
+      "rating": 4.9,
       "image": "https://example.com/monitor_image6.jpg"
     },
     {
@@ -624,7 +624,7 @@
       "category": "Monitor",
       "price": 169.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.3,
+      "rating": 4.3,
       "image": "https://example.com/monitor_image7.jpg"
     },
     {
@@ -635,7 +635,7 @@
       "category": "Monitor",
       "price": 129.99,
       "status": "Out of Stock",
-      "rating (out of 5 stars)": 4.2,
+      "rating": 4.2,
       "image": "https://example.com/monitor_image8.jpg"
     },
     {
@@ -646,7 +646,7 @@
       "category": "Monitor",
       "price": 349.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.6,
+      "rating": 4.6,
       "image": "https://example.com/monitor_image9.jpg"
     },
     {
@@ -657,7 +657,7 @@
       "category": "Monitor",
       "price": 139.99,
       "status": "In Stock",
-      "rating (out of 5 stars)": 4.4,
+      "rating": 4.4,
       "image": "https://example.com/monitor_image10.jpg"
     }
   ]

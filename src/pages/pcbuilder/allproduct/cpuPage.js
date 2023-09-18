@@ -1,18 +1,26 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Image1 from "@/assets/Icon/cpu.png";
-import Navbar from "@/pages/components/Shared/navbar";
+import Navbar from "@/components/shared/navbar";
+import { addToProduct } from "@/redux/productSlice/productSlice";
+// import { addProduct } from "@/pages/redux/productSlice/productSlice";
 import Image from "next/image";
-import { useState } from "react";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 
 const cpuPage = ({ allProduct }) => {
-  const [selectedProducts, setSelectedProducts] = useState([]);
-
-  const handleAddToBuilder = (product) => {
-    setSelectedProducts(...selectedProducts, product);
-  };
   const cpuProducts = allProduct?.filter(
     (product) => product.category === "Computer Processor"
   );
+
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const selectedCategory = "CPU";
+
+  const handleAddToCart = (product) => {
+    dispatch(addToProduct(product));
+    router.push("/pcbuilder/pcbuilderpage");
+  };
 
   return (
     <div className="h-[calc(100vh-80px)] max-w-7xl mx-auto">
@@ -40,7 +48,7 @@ const cpuPage = ({ allProduct }) => {
             </div>
             <button
               class="w-24 h-10 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none transition duration-300"
-              onClick={() => handleAddToBuilder(product)}
+              onClick={() => handleAddToCart(product)}
             >
               ADD
             </button>
