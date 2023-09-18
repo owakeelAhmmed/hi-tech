@@ -82,7 +82,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <Link href="/pcbuilder/pcbuilderpage">
-          <button className="btn btn-secondary bg-[#e11d48]">Pc Builder</button>
+          <button className="btn btn-primary ">Pc Builder</button>
         </Link>
       </div>
     </div>

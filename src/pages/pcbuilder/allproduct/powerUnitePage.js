@@ -6,9 +6,9 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 
-const cpuPage = ({ allProduct }) => {
+const powerUnitePage = ({ allProduct }) => {
   const cpuProducts = allProduct?.filter(
-    (product) => product.category === "Computer Processor"
+    (product) => product.category === "Power Supply Unit"
   );
 
   const dispatch = useDispatch();
@@ -56,7 +56,7 @@ const cpuPage = ({ allProduct }) => {
   );
 };
 
-export default cpuPage;
+export default powerUnitePage;
 
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products");

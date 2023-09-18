@@ -30,8 +30,8 @@ const StorageCard = ({ allProduct }) => {
                     <h2 className="card-title">{product.title}</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
-                      <button className="btn btn-sm text-white bg-[#eb3b5a]">
-                        Buy Now
+                      <button className="btn btn-sm btn-primary">
+                        more details
                       </button>
                     </div>
                   </div>

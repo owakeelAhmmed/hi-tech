@@ -2,7 +2,7 @@ import { BsFillCpuFill, BsFillMotherboardFill, BsMemory } from "react-icons/bs";
 import Icon1 from "@/assets/Icon/cpu.png";
 import Icon2 from "@/assets/Icon/monitor.png";
 import Icon3 from "@/assets/Icon/storage.png";
-import Icon4 from "@/assets/Icon/mainboard.png";
+import Icon4 from "@/assets/Icon/motherboard.png";
 import Icon5 from "@/assets/Icon/pws.png";
 import Icon6 from "@/assets/Icon/ram.png";
 import Image from "next/image";
