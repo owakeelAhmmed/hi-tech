@@ -42,6 +42,9 @@ const MonitorPage = ({ allProduct }) => {
               <h1 className="text-xl font-semibold">{product.name}</h1>
               <h2 className="text-xl font-semibold">{product.title}</h2>
               <p className="text-gray-700">{product.detail}</p>
+              <p className="text-gray-700">{product.price}</p>
+              <p className="text-gray-700">{product.status}</p>
+              <p className="text-gray-700">{product.rating}</p>
             </div>
             <button
               class="w-24 h-10 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none transition duration-300"

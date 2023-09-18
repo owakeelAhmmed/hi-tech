@@ -1,8 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import Image4 from "@/assets/Icon/storage.png";
+import { BsFillTrash3Fill } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "@/redux/productSlice/productSlice";
 
 const CardStorage = ({ selectedProducts }) => {
+  const dispatch = useDispatch();
+  const isProducts = selectedProducts.length > 3;
+
+  const handleRemoveFromCart = () => {
+    dispatch(removeFromCart());
+  };
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
@@ -27,9 +36,15 @@ const CardStorage = ({ selectedProducts }) => {
               <p>{selectedProducts[3]?.name}</p>
             </div>
           </div>
-          <Link href="/pcbuilder/allproduct/storagePage">
-            <button className="btn btn-sm btn-primary ">Select</button>
-          </Link>
+          {isProducts ? (
+            <button className="text-2xl text-red-500">
+              <BsFillTrash3Fill onClick={handleRemoveFromCart} />
+            </button>
+          ) : (
+            <Link href="/pcbuilder/allproduct/storagePage">
+              <button className="btn btn-sm btn-primary ">Select</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

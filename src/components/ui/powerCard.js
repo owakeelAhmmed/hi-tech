@@ -1,8 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import Image5 from "@/assets/Icon/pws.png";
+import { BsFillTrash3Fill } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "@/redux/productSlice/productSlice";
 
 const PowerCard = ({ selectedProducts }) => {
+  const dispatch = useDispatch();
+  const isProducts = selectedProducts.length > 4;
+
+  const handleRemoveFromCart = () => {
+    dispatch(removeFromCart());
+  };
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
@@ -27,9 +36,15 @@ const PowerCard = ({ selectedProducts }) => {
               <p>{selectedProducts[4]?.name}</p>
             </div>
           </div>
-          <Link href="/pcbuilder/allproduct/powerUnitePage">
-            <button className="btn btn-sm btn-primary ">Select</button>
-          </Link>
+          {isProducts ? (
+            <button className="text-2xl text-red-500">
+              <BsFillTrash3Fill onClick={handleRemoveFromCart} />
+            </button>
+          ) : (
+            <Link href="/pcbuilder/allproduct/powerUnitePage">
+              <button className="btn btn-sm btn-primary ">Select</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

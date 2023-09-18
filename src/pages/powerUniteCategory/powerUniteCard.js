@@ -1,5 +1,6 @@
 import Navbar from "@/components/shared/navbar";
 import Image from "next/image";
+import Link from "next/link";
 
 const PowerUniteCard = ({ allProduct }) => {
   const cpuProducts = allProduct?.filter(
@@ -33,7 +34,11 @@ const PowerUniteCard = ({ allProduct }) => {
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
                       <button className="btn btn-sm btn-primary">
-                        more details
+                        <Link href={`/detail/${product.id}`}>
+                          <button className="btn btn-sm btn-primary">
+                            More Details
+                          </button>
+                        </Link>
                       </button>
                     </div>
                   </div>

@@ -35,6 +35,7 @@ const CpuCard = ({ selectedProducts }) => {
             <div>
               <p>{selectedProducts[0]?.title}</p>
               <p>{selectedProducts[0]?.name}</p>
+              <p>{selectedProducts[0]?.price}</p>
             </div>
           </div>
 

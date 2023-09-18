@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import Image3 from "@/assets/Icon/monitor.png";
+import { BsFillTrash3Fill } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "@/redux/productSlice/productSlice";
 
 const MonitorCard = ({ selectedProducts }) => {
+  const dispatch = useDispatch();
+  const isProducts = selectedProducts.length > 2;
+
+  const handleRemoveFromCart = () => {
+    dispatch(removeFromCart());
+  };
+
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
@@ -27,9 +37,15 @@ const MonitorCard = ({ selectedProducts }) => {
               <p>{selectedProducts[2]?.name}</p>
             </div>
           </div>
-          <Link href="/pcbuilder/allproduct/monitorPage">
-            <button className="btn btn-sm btn-primary ">Select</button>
-          </Link>
+          {isProducts ? (
+            <button className="text-2xl text-red-500">
+              <BsFillTrash3Fill onClick={handleRemoveFromCart} />
+            </button>
+          ) : (
+            <Link href="/pcbuilder/allproduct/monitorPage">
+              <button className="btn btn-sm btn-primary ">Select</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

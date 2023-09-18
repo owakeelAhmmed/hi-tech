@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import Image6 from "@/assets/Icon/ram.png";
+import { BsFillTrash3Fill } from "react-icons/bs";
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "@/redux/productSlice/productSlice";
 
 const RamCard = ({ selectedProducts }) => {
+  const dispatch = useDispatch();
+  const isProducts = selectedProducts.length > 5;
+
+  const handleRemoveFromCart = () => {
+    dispatch(removeFromCart());
+  };
+
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
@@ -27,9 +37,15 @@ const RamCard = ({ selectedProducts }) => {
               <p>{selectedProducts[5]?.name}</p>
             </div>
           </div>
-          <Link href="/pcbuilder/allproduct/ramPage">
-            <button className="btn btn-sm btn-primary ">Select</button>
-          </Link>
+          {isProducts ? (
+            <button className="text-2xl text-red-500">
+              <BsFillTrash3Fill onClick={handleRemoveFromCart} />
+            </button>
+          ) : (
+            <Link href="/pcbuilder/allproduct/ramPage">
+              <button className="btn btn-sm btn-primary ">Select</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>
