@@ -9,8 +9,14 @@ const productSlice = createSlice({
     addToProduct: (state, action) => {
       state.selectedProducts.push(action.payload);
     },
+    removeFromCart: (state, action) => {
+      const productIdRemove = action.payload;
+      state.selectedProducts = state.selectedProducts.filter(
+        (product) => product.id !== productIdRemove
+      );
+    },
   },
 });
 
-export const { addToProduct } = productSlice.actions;
+export const { addToProduct, removeFromCart } = productSlice.actions;
 export default productSlice.reducer;
