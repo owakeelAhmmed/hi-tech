@@ -60,7 +60,7 @@ const powerUnitePage = ({ allProduct }) => {
 export default powerUnitePage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("https://hi-tech-server.vercel.app/products");
 
   const data = await res.json();
 

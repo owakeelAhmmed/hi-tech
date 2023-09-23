@@ -59,15 +59,3 @@ const PcBuilderPage = () => {
 };
 
 export default PcBuilderPage;
-
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
-
-  const data = await res.json();
-
-  return {
-    props: {
-      allProduct: data.data,
-    },
-  };
-};

@@ -35,7 +35,9 @@ const StorageCard = ({ allProduct }) => {
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
                       <button className="btn btn-sm btn-primary">
-                        <Link href={`/detail/${product.id}`}>More Details</Link>
+                        <Link href={`/detail/${product._id}`}>
+                          More Details
+                        </Link>
                       </button>
                     </div>
                   </div>
@@ -52,7 +54,7 @@ const StorageCard = ({ allProduct }) => {
 export default StorageCard;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("https://hi-tech-server.vercel.app/products");
 
   const data = await res.json();
 

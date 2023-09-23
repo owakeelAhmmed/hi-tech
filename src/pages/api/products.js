@@ -20,6 +20,11 @@ async function run(req, res) {
       const products = await productsCollection.find({}).toArray();
       res.send({ message: "success", status: 200, data: products });
     }
+    if (req.method === "GET") {
+      const product = await productsCollection.findOne({ _id: id });
+
+      res.send({ message: "success", status: 200, data: product });
+    }
   } finally {
   }
 }
