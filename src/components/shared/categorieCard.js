@@ -10,9 +10,9 @@ import Link from "next/link";
 import { useGetProductsQuery } from "@/redux/api/api";
 
 const CategoricCard = ({ allProduct }) => {
-  const { data, isLoading, isError, error } = useGetProductsQuery();
+  // const { data, isLoading, isError, error } = useGetProductsQuery();
 
-  const productCards = data?.filter(
+  const productCards = allProduct?.filter(
     (product) => product.category === "Computer Processor"
   );
 

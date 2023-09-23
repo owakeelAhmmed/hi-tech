@@ -1,7 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
       "title": "High-Performance Computer Processor",
       "detail": "Experience powerful computing with the Intel Core i9-9900K processor. This high-performance CPU is designed for enthusiasts and gamers, delivering exceptional speed and multitasking capabilities.",
       "name": "intel core i9-9900k",
@@ -9,10 +8,9 @@
       "price": 399.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/cpu_image1.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG59.png"
     },
     {
-      "id": 2,
       "title": "Ultimate Gaming CPU",
       "detail": "Elevate your gaming experience with the AMD Ryzen 9 5900X processor. This CPU offers top-tier gaming performance and multitasking capabilities, making it ideal for gamers and content creators.",
       "name": "amd ryzen 9 5900x",
@@ -20,10 +18,9 @@
       "price": 549.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/cpu_image2.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG57.png"
     },
     {
-      "id": 3,
       "title": "High-Performance CPU for Enthusiasts",
       "detail": "The Intel Core i7-11700K processor offers excellent performance for enthusiasts and power users. With its impressive speed and capabilities, it's a top choice for demanding tasks.",
       "name": "intel core i7-11700k",
@@ -31,10 +28,9 @@
       "price": 349.99,
       "status": "Out of Stock",
       "rating": 4.6,
-      "image": "https://example.com/cpu_image3.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG50.png"
     },
     {
-      "id": 4,
       "title": "Excellent Gaming and Multitasking",
       "detail": "The AMD Ryzen 5 5600X processor is perfect for gamers and multitaskers. With its impressive speed and efficiency, it's a great choice for a wide range of computing tasks.",
       "name": "amd ryzen 5 5600x",
@@ -42,10 +38,9 @@
       "price": 299.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/cpu_image4.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG39.png"
     },
     {
-      "id": 5,
       "title": "Solid Performance for Gamers",
       "detail": "The Intel Core i5-11600K processor offers solid gaming performance at an affordable price. It's a great choice for gamers looking for value and speed.",
       "name": "intel core i5-11600k",
@@ -53,10 +48,9 @@
       "price": 279.99,
       "status": "In Stock",
       "rating": 4.3,
-      "image": "https://example.com/cpu_image5.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG35.png"
     },
     {
-      "id": 6,
       "title": "High-End Gaming and Content Creation",
       "detail": "Experience high-end gaming and content creation with the AMD Ryzen 7 5800X processor. Its exceptional performance makes it a top choice for demanding tasks.",
       "name": "amd ryzen 7 5800x",
@@ -64,10 +58,9 @@
       "price": 449.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/cpu_image6.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG28.png"
     },
     {
-      "id": 7,
       "title": "Entry-Level Processor",
       "detail": "The Intel Core i3-10100 processor is a reliable choice for entry-level computing needs. It offers good performance at an affordable price point.",
       "name": "intel core i3-10100",
@@ -75,10 +68,9 @@
       "price": 129.99,
       "status": "In Stock",
       "rating": 4.0,
-      "image": "https://example.com/cpu_image7.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG20.png"
     },
     {
-      "id": 8,
       "title": "Budget-Friendly CPU",
       "detail": "The AMD Ryzen 3 3300X processor offers budget-friendly computing power. It's suitable for everyday tasks and light gaming.",
       "name": "amd ryzen 3 3300x",
@@ -86,10 +78,9 @@
       "price": 149.99,
       "status": "Out of Stock",
       "rating": 3.8,
-      "image": "https://example.com/cpu_image8.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG11.png"
     },
     {
-      "id": 9,
       "title": "High-Performance Processor",
       "detail": "The Intel Core i9-11900K processor is a high-performance CPU designed for power users and gamers. It delivers exceptional speed and responsiveness.",
       "name": "intel core i9-11900k",
@@ -97,10 +88,9 @@
       "price": 479.99,
       "status": "In Stock",
       "rating": 4.9,
-      "image": "https://example.com/cpu_image9.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG26.png"
     },
     {
-      "id": 10,
       "title": "Top-Of-The-Line CPU",
       "detail": "Experience the pinnacle of CPU performance with the AMD Ryzen 9 5950X processor. It's the ultimate choice for demanding tasks and gaming.",
       "name": "amd ryzen 9 5950x",
@@ -108,10 +98,9 @@
       "price": 749.99,
       "status": "In Stock",
       "rating": 5.0,
-      "image": "https://example.com/cpu_image10.jpg"
+      "image": "https://pngimg.com/uploads/cpu/small/cpu_PNG3.png"
     },
     {
-      "id": 11,
       "title": "High-Performance Motherboard",
       "detail": "The ASUS ROG Strix B550-F Gaming motherboard is designed for high-performance gaming rigs. It offers a range of features and supports the latest processors.",
       "name": "asus rog strix b550-f gaming",
@@ -119,10 +108,9 @@
       "price": 179.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/motherboard_image1.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/2-2-motherboard-png-pic-thumb.png"
     },
     {
-      "id": 12,
       "title": "Feature-Rich Motherboard",
       "detail": "The GIGABYTE B450 AORUS PRO WIFI motherboard offers a range of features and wireless connectivity. It's suitable for gaming and productivity tasks.",
       "name": "gigabyte b450 aorus pro wifi",
@@ -130,10 +118,9 @@
       "price": 129.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/motherboard_image2.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/1-2-motherboard-free-download-png-thumb.png"
     },
     {
-      "id": 13,
       "title": "High-End Gaming Motherboard",
       "detail": "The MSI MPG X570 GAMING PRO CARBON WIFI motherboard is designed for high-end gaming and content creation. It offers excellent performance and connectivity options.",
       "name": "msi mpg x570 gaming pro carbon wifi",
@@ -141,10 +128,9 @@
       "price": 239.99,
       "status": "Out of Stock",
       "rating": 4.7,
-      "image": "https://example.com/motherboard_image3.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/8-2-motherboard-png-image-thumb.png"
     },
     {
-      "id": 14,
       "title": "Compact ITX Motherboard",
       "detail": "The ASRock B550M-ITX/ac motherboard is compact and feature-packed. It's perfect for small form factor builds and offers excellent performance.",
       "name": "asrock b550m-itx/ac",
@@ -152,10 +138,9 @@
       "price": 149.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/motherboard_image4.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/3-2-motherboard-picture-thumb.png"
     },
     {
-      "id": 15,
       "title": "High-Performance Motherboard",
       "detail": "The ASUS Prime Z590-A motherboard is designed for high-performance computing. It supports the latest processors and offers a range of connectivity options.",
       "name": "asus prime z590-a",
@@ -163,10 +148,9 @@
       "price": 209.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/motherboard_image5.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/6-2-motherboard-download-png-thumb.png"
     },
     {
-      "id": 16,
       "title": "Premium Gaming Motherboard",
       "detail": "The GIGABYTE X570 AORUS ULTRA motherboard is a premium choice for gamers and enthusiasts. It offers top-tier performance and features for gaming rigs.",
       "name": "gigabyte x570 aorus ultra",
@@ -174,10 +158,9 @@
       "price": 299.99,
       "status": "In Stock",
       "rating": 4.9,
-      "image": "https://example.com/motherboard_image6.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/7-2-motherboard-png-hd-thumb.png"
     },
     {
-      "id": 17,
       "title": "High-Performance Motherboard",
       "detail": "The MSI MAG B450 TOMAHAWK MAX motherboard is designed for high-performance gaming builds. It offers excellent value and features for gamers.",
       "name": "msi mag b450 tomahawk max",
@@ -185,10 +168,9 @@
       "price": 119.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/motherboard_image7.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/9-2-motherboard-png-file-thumb.png"
     },
     {
-      "id": 18,
       "title": "Compact ITX Motherboard",
       "detail": "The ASRock H470M-ITX/ac motherboard is compact and efficient. It's suitable for small form factor builds and offers solid performance.",
       "name": "asrock h470m-itx/ac",
@@ -196,10 +178,9 @@
       "price": 99.99,
       "status": "Out of Stock",
       "rating": 4.0,
-      "image": "https://example.com/motherboard_image8.jpg"
+      "image": "https://freepngimg.com/thumb/motherboard/12-2-motherboard-free-png-image-thumb.png"
     },
     {
-      "id": 19,
       "title": "High-Performance Motherboard",
       "detail": "The ASUS ROG Crosshair VIII Hero motherboard is designed for high-performance gaming and overclocking. It's a top choice for enthusiasts.",
       "name": "asus rog crosshair viii hero",
@@ -207,10 +188,9 @@
       "price": 349.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/motherboard_image9.jpg"
+      "image": "https://www.pngmart.com/files/7/Motherboard-PNG-Picture.png"
     },
     {
-      "id": 20,
       "title": "Compact ITX Motherboard",
       "detail": "The GIGABYTE Z590I AORUS ULTRA motherboard is compact and feature-packed. It's perfect for small form factor builds and offers excellent performance.",
       "name": "gigabyte z590i aorus ultra",
@@ -218,10 +198,9 @@
       "price": 199.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/motherboard_image10.jpg"
+      "image": "https://www.pngmart.com/files/7/Motherboard-PNG-File.png"
     },
     {
-      "id": 21,
       "title": "High-Performance RAM",
       "detail": "The Corsair Vengeance LPX 16GB DDR4 RAM delivers high-performance memory for your computer. It's ideal for gaming and multitasking.",
       "name": "corsair vengeance lpx 16gb ddr4",
@@ -229,10 +208,9 @@
       "price": 79.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/ram_image1.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/RGB-Ram-Transparent.png"
     },
     {
-      "id": 22,
       "title": "High-Performance RAM",
       "detail": "The G.SKILL Ripjaws V Series 32GB DDR4 RAM is designed for high-performance computing. It's ideal for gaming and content creation tasks.",
       "name": "g.skill ripjaws v series 32gb ddr4",
@@ -240,10 +218,9 @@
       "price": 129.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/ram_image2.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/Gaming-RAM-PNG-Clipart.png"
     },
     {
-      "id": 23,
       "title": "Reliable RAM",
       "detail": "The Crucial Ballistix 8GB DDR4 RAM offers reliable performance for your computing needs. It's a cost-effective choice for everyday tasks.",
       "name": "crucial ballistix 8gb ddr4",
@@ -251,10 +228,9 @@
       "price": 49.99,
       "status": "Out of Stock",
       "rating": 4.3,
-      "image": "https://example.com/ram_image3.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/Gaming-RAM-PNG-File.png"
     },
     {
-      "id": 24,
       "title": "High-Capacity RAM",
       "detail": "The Kingston HyperX Fury 64GB DDR4 RAM offers high-capacity memory for demanding tasks and multitasking. It's perfect for content creators.",
       "name": "kingston hyperx fury 64gb ddr4",
@@ -262,10 +238,9 @@
       "price": 199.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/ram_image4.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/Gaming-RAM-PNG-Free-Download.png"
     },
     {
-      "id": 25,
       "title": "Budget-Friendly RAM",
       "detail": "The Team T-FORCE VULCAN Z 16GB DDR4 RAM is a budget-friendly option for your computing needs. It offers good performance at an affordable price.",
       "name": "team t-force vulcan z 16gb ddr4",
@@ -273,10 +248,9 @@
       "price": 69.99,
       "status": "In Stock",
       "rating": 4.2,
-      "image": "https://example.com/ram_image5.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/Gaming-RAM-Transparent.png"
     },
     {
-      "id": 26,
       "title": "High-Capacity RAM",
       "detail": "The Patriot Viper Steel 64GB DDR4 RAM offers high-capacity memory for demanding tasks and multitasking. It's perfect for content creators.",
       "name": "patriot viper steel 64gb ddr4",
@@ -284,10 +258,9 @@
       "price": 179.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/ram_image6.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/Gaming-RAM.png"
     },
     {
-      "id": 27,
       "title": "High-Performance RAM",
       "detail": "The Corsair Dominator Platinum RGB 32GB DDR4 RAM delivers high-performance memory with RGB lighting. It's ideal for gaming and enthusiasts.",
       "name": "corsair dominator platinum rgb 32gb ddr4",
@@ -295,10 +268,9 @@
       "price": 159.99,
       "status": "In Stock",
       "rating": 4.9,
-      "image": "https://example.com/ram_image7.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/RAM-Memory-PNG-Clipart.png"
     },
     {
-      "id": 28,
       "title": "RGB RAM",
       "detail": "The ADATA XPG Spectrix D60G 16GB DDR4 RAM features RGB lighting for a stylish look. It offers good performance for gaming and multitasking.",
       "name": "adata xpg spectrix d60g 16gb ddr4",
@@ -306,10 +278,9 @@
       "price": 89.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/ram_image8.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/RAM-Memory-Transparent.png"
     },
     {
-      "id": 29,
       "title": "High-Capacity RAM",
       "detail": "The Crucial Ballistix MAX 64GB DDR4 RAM offers high-capacity memory for demanding tasks and content creation. It's designed for enthusiasts.",
       "name": "crucial ballistix max 64gb ddr4",
@@ -317,10 +288,9 @@
       "price": 219.99,
       "status": "Out of Stock",
       "rating": 4.6,
-      "image": "https://example.com/ram_image9.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/RAM-PNG-Download-Image.png"
     },
     {
-      "id": 30,
       "title": "High-Performance RAM",
       "detail": "The G.SKILL Trident Z RGB 32GB DDR4 RAM offers high-performance memory with RGB lighting. It's ideal for gaming and enthusiasts.",
       "name": "g.skill trident z rgb 32gb ddr4",
@@ -328,10 +298,9 @@
       "price": 139.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/ram_image10.jpg"
+      "image": "https://www.pngall.com/wp-content/uploads/5/RAM-PNG-Image-File.png"
     },
     {
-      "id": 31,
       "title": "Entry-Level Power Supply",
       "detail": "The EVGA 600 W1 is an entry-level 600W power supply unit. It offers reliable power for basic computer systems.",
       "name": "evga 600 w1, 80+ white 600w",
@@ -339,10 +308,9 @@
       "price": 49.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/psu_image1.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp"
     },
     {
-      "id": 32,
       "title": "High-Efficiency PSU",
       "detail": "The Corsair RM750x is a 750W 80+ Gold certified power supply unit. It offers high efficiency and is suitable for gaming and enthusiast builds.",
       "name": "corsair rm750x, 750w 80+ gold",
@@ -350,10 +318,9 @@
       "price": 119.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/psu_image2.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-228x228.webp"
     },
     {
-      "id": 33,
       "title": "High-Efficiency PSU",
       "detail": "The Seasonic FOCUS GX-650 is a 650W 80+ Gold certified power supply unit. It offers high efficiency and reliability for gaming and enthusiast systems.",
       "name": "seasonic focus gx-650, 650w 80+ gold",
@@ -361,10 +328,9 @@
       "price": 99.99,
       "status": "Out of Stock",
       "rating": 4.6,
-      "image": "https://example.com/psu_image3.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-228x228.webp"
     },
     {
-      "id": 34,
       "title": "Budget-Friendly PSU",
       "detail": "The Thermaltake Smart 500W 80+ White is a budget-friendly power supply unit. It's suitable for basic computer systems.",
       "name": "thermaltake smart 500w 80+ white",
@@ -372,10 +338,9 @@
       "price": 39.99,
       "status": "In Stock",
       "rating": 4.3,
-      "image": "https://example.com/psu_image4.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-01-228x228.webp"
     },
     {
-      "id": 35,
       "title": "High-Efficiency PSU",
       "detail": "The NZXT C750 is a 750W 80+ Gold certified power supply unit. It offers high efficiency and is suitable for gaming and enthusiast builds.",
       "name": "nzxt c750, 750w 80+ gold",
@@ -383,10 +348,9 @@
       "price": 109.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/psu_image5.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp550/aura-gp550-01-228x228.webp"
     },
     {
-      "id": 36,
       "title": "High-Efficiency PSU",
       "detail": "The Cooler Master MWE Gold 650 V2 is a 650W 80+ Gold certified power supply unit. It offers high efficiency and is suitable for gaming and enthusiast builds.",
       "name": "cooler master mwe gold 650 v2, 650w 80+ gold",
@@ -394,10 +358,9 @@
       "price": 89.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/psu_image6.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/gigabyte/p450b/p450b-228x228.jpg"
     },
     {
-      "id": 37,
       "title": "High-Efficiency PSU",
       "detail": "The Antec Earthwatts Gold Pro 550W is a 550W 80+ Gold certified power supply unit. It offers high efficiency and is suitable for gaming and enthusiast builds.",
       "name": "antec earthwatts gold pro 550w 80+ gold",
@@ -405,10 +368,9 @@
       "price": 79.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/psu_image7.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/csk-450/csk-450-bronze-01-228x228.jpg"
     },
     {
-      "id": 38,
       "title": "Efficient PSU",
       "detail": "The SilverStone Technology Strider 750W is a 750W 80+ Silver certified power supply unit. It offers good efficiency for gaming and enthusiast systems.",
       "name": "silverstone technology strider 750w 80+ silver",
@@ -416,10 +378,9 @@
       "price": 89.99,
       "status": "Out of Stock",
       "rating": 4.3,
-      "image": "https://example.com/psu_image8.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/fsp/hydro-k-pro-500w/hydro-k-pro-500w-228x228.webp"
     },
     {
-      "id": 39,
       "title": "High-Efficiency PSU",
       "detail": "The EVGA SuperNOVA 850 G3 is an 850W 80+ Gold certified power supply unit. It offers high efficiency and is suitable for gaming and enthusiast builds.",
       "name": "evga supernova 850 g3, 850w 80+ gold",
@@ -427,10 +388,9 @@
       "price": 139.99,
       "status": "In Stock",
       "rating": 4.9,
-      "image": "https://example.com/psu_image9.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/1stplayer/ps-600ax/ps-600ax-06-228x228.webp"
     },
     {
-      "id": 40,
       "title": "Budget-Friendly PSU",
       "detail": "The Rosewill Hive Series 650W 80+ Bronze is a budget-friendly power supply unit. It's suitable for basic computer systems.",
       "name": "rosewill hive series 650w 80+ bronze",
@@ -438,10 +398,9 @@
       "price": 69.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/psu_image10.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/thermaltake/smart-bm2-550w/smart-bm2-550w-228x228.jpg"
     },
     {
-      "id": 41,
       "title": "High-Speed NVMe SSD",
       "detail": "The Samsung 970 EVO 1TB NVMe SSD offers high-speed storage for your data. It's perfect for gaming and content creation.",
       "name": "samsung 970 evo 1tb nvme ssd",
@@ -449,10 +408,9 @@
       "price": 149.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/storage_image1.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/colorful/cn600/cn600-01-228x228.webp"
     },
     {
-      "id": 42,
       "title": "High-Capacity SATA SSD",
       "detail": "The Western Digital WD Blue 2TB SATA SSD offers high-capacity storage for your data. It's suitable for gaming and multimedia.",
       "name": "western digital wd blue 2tb sata ssd",
@@ -460,10 +418,9 @@
       "price": 239.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/storage_image2.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/colorful/cn700/cn700-01-228x228.webp"
     },
     {
-      "id": 43,
       "title": "High-Capacity HDD",
       "detail": "The Seagate BarraCuda 4TB HDD offers high-capacity storage for your data. It's suitable for archiving and large media files.",
       "name": "seagate barracuda 4tb hdd",
@@ -471,10 +428,9 @@
       "price": 99.99,
       "status": "Out of Stock",
       "rating": 4.6,
-      "image": "https://example.com/storage_image3.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/t7-blue/t7-blue-01-228x228.webp"
     },
     {
-      "id": 44,
       "title": "Affordable SATA SSD",
       "detail": "The Crucial MX500 500GB SATA SSD offers affordable storage for your data. It's suitable for everyday computing needs.",
       "name": "crucial mx500 500gb sata ssd",
@@ -482,10 +438,9 @@
       "price": 79.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/storage_image4.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/hp-ssd/ex900-plus-512gb/ex900-plus-512gb-01-228x228.webp"
     },
     {
-      "id": 45,
       "title": "High-Capacity SATA SSD",
       "detail": "The Samsung 860 EVO 1TB SATA SSD offers high-capacity storage for your data. It's suitable for gaming and multimedia.",
       "name": "samsung 860 evo 1tb sata ssd",
@@ -493,10 +448,9 @@
       "price": 109.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/storage_image5.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/western-digital/blue-500gb/blue-500gb-1-228x228.jpg"
     },
     {
-      "id": 46,
       "title": "Affordable SATA SSD",
       "detail": "The ADATA SU800 256GB SATA SSD offers affordable storage for your data. It's suitable for everyday computing needs.",
       "name": "adata su800 256gb sata ssd",
@@ -504,10 +458,9 @@
       "price": 49.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/storage_image6.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/acer/sa100/sa100-01-228x228.jpg"
     },
     {
-      "id": 47,
       "title": "High-Speed NVMe SSD",
       "detail": "The Kingston A2000 500GB NVMe SSD offers high-speed storage for your data. It's perfect for gaming and content creation.",
       "name": "kingston a2000 500gb nvme ssd",
@@ -515,10 +468,9 @@
       "price": 69.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/storage_image7.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/zadak/twss3/twss3-228x228.jpg"
     },
     {
-      "id": 48,
       "title": "High-Capacity HDD",
       "detail": "The Toshiba P300 3TB HDD offers high-capacity storage for your data. It's suitable for archiving and large media files.",
       "name": "toshiba p300 3tb hdd",
@@ -526,10 +478,9 @@
       "price": 89.99,
       "status": "Out of Stock",
       "rating": 4.7,
-      "image": "https://example.com/storage_image8.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/kingsman/sk150/sk150-512gb-228x228.jpg"
     },
     {
-      "id": 49,
       "title": "High-Capacity SATA SSD",
       "detail": "The Crucial BX500 2TB SATA SSD offers high-capacity storage for your data. It's suitable for gaming and multimedia.",
       "name": "crucial bx500 2tb sata ssd",
@@ -537,10 +488,9 @@
       "price": 189.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/storage_image9.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/gigabyte/512gb/512gb-228x228.jpg"
     },
     {
-      "id": 50,
       "title": "High-Speed NVMe SSD",
       "detail": "The Western Digital WD Black SN750 1TB NVMe SSD offers high-speed storage for your data. It's perfect for gaming and content creation.",
       "name": "western digital wd black sn750 1tb nvme ssd",
@@ -548,10 +498,9 @@
       "price": 149.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/storage_image10.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/netac/ls-ne-sa500/ls-ne-sa500-01-228x228.webp"
     },
     {
-      "id": 51,
       "title": "27-Inch QHD IPS Monitor",
       "detail": "The Dell Ultrasharp U2719D is a 27-inch QHD IPS monitor with excellent color accuracy and sharp visuals. It's perfect for professional work and multimedia.",
       "name": "dell ultrasharp u2719d 27-inch qhd ips monitor",
@@ -559,10 +508,9 @@
       "price": 349.99,
       "status": "In Stock",
       "rating": 4.7,
-      "image": "https://example.com/monitor_image1.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/x27q/x27q-01-228x228.webp"
     },
     {
-      "id": 52,
       "title": "27-Inch QHD IPS Gaming Monitor",
       "detail": "The LG 27GL83A-B is a 27-inch Ultragear QHD IPS gaming monitor with a high refresh rate and fast response time. It's perfect for gaming enthusiasts.",
       "name": "lg 27gl83a-b 27 inch ultragear qhd ips gaming monitor",
@@ -570,10 +518,9 @@
       "price": 379.99,
       "status": "In Stock",
       "rating": 4.8,
-      "image": "https://example.com/monitor_image2.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/pd2700q/1-pd2705q-01-228x228.webp"
     },
     {
-      "id": 53,
       "title": "27-Inch Gaming Monitor",
       "detail": "The ASUS ROG Swift PG279QZ is a 27-inch gaming monitor with a high refresh rate and NVIDIA G-SYNC technology. It's ideal for competitive gamers.",
       "name": "asus rog swift pg279qz 27-inch gaming monitor",
@@ -581,10 +528,9 @@
       "price": 499.99,
       "status": "Out of Stock",
       "rating": 4.6,
-      "image": "https://example.com/monitor_image3.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/27qn600-b/27qn600-b-001-228x228.webp"
     },
     {
-      "id": 54,
       "title": "31.5-Inch Curved Gaming Monitor",
       "detail": "The AOC CQ32G1 is a 31.5-inch curved frameless gaming monitor with a high refresh rate and immersive visuals. It's perfect for gaming enthusiasts.",
       "name": "aoc cq32g1 31.5 inch curved frameless gaming monitor",
@@ -592,10 +538,9 @@
       "price": 259.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/monitor_image4.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/g27q-20/g27q-20-01-228x228.webp"
     },
     {
-      "id": 55,
       "title": "32-Inch 4K Monitor",
       "detail": "The BenQ EW3270U is a 32-inch 4K monitor with HDR support and stunning visuals. It's ideal for content creators and multimedia enthusiasts.",
       "name": "benq ew3270u 32 inch 4k monitor",
@@ -603,10 +548,9 @@
       "price": 449.99,
       "status": "In Stock",
       "rating": 4.5,
-      "image": "https://example.com/monitor_image5.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/xiaomi/rmmnt27nqs/rmmnt27nqs-01-228x228.webp"
     },
     {
-      "id": 56,
       "title": "27-Inch Curved Gaming Monitor",
       "detail": "The Samsung Odyssey G7 is a 27-inch curved gaming monitor with a high refresh rate and QLED technology. It's perfect for immersive gaming experiences.",
       "name": "samsung odyssey g7 27-inch curved gaming monitor",
@@ -614,10 +558,9 @@
       "price": 699.99,
       "status": "In Stock",
       "rating": 4.9,
-      "image": "https://example.com/monitor_image6.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/gigabyte/g27q/g27q-01-228x228.jpg"
     },
     {
-      "id": 57,
       "title": "23.8-Inch Full HD IPS Monitor",
       "detail": "The HP VH240a is a 23.8-inch Full HD IPS LED monitor with excellent color accuracy. It's suitable for office work and everyday computing.",
       "name": "hp vh240a 23.8-inch full hd ips led monitor",
@@ -625,10 +568,9 @@
       "price": 169.99,
       "status": "In Stock",
       "rating": 4.3,
-      "image": "https://example.com/monitor_image7.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/Corsair/xeneon%20e700/corsair-xeneon-32qhd165-gaming-monitor-03-228x228.jpg"
     },
     {
-      "id": 58,
       "title": "24-Inch Gaming Monitor",
       "detail": "The ViewSonic VX2457-MHD is a 24-inch gaming monitor with a fast response time and AMD FreeSync technology. It's ideal for budget-conscious gamers.",
       "name": "viewsonic vx2457-mhd 24 inch gaming monitor",
@@ -636,10 +578,9 @@
       "price": 129.99,
       "status": "Out of Stock",
       "rating": 4.2,
-      "image": "https://example.com/monitor_image8.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/49wl95c-we/49wl95c-we-01-228x228.jpg"
     },
     {
-      "id": 59,
       "title": "27-Inch Free Sync Gaming Monitor",
       "detail": "The Dell S2719DGF is a 27-inch Free Sync gaming monitor with a high refresh rate. It's perfect for competitive gaming.",
       "name": "dell s2719dgf 27-inch free sync gaming monitor",
@@ -647,10 +588,9 @@
       "price": 349.99,
       "status": "In Stock",
       "rating": 4.6,
-      "image": "https://example.com/monitor_image9.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/e27q-g4/e27q-g4-01-228x228.jpg"
     },
     {
-      "id": 60,
       "title": "23.8-Inch IPS Monitor",
       "detail": "The Acer R240HY is a 23.8-inch IPS HDMI DVI VGA widescreen monitor with vibrant visuals. It's suitable for office work and multimedia.",
       "name": "acer r240hy 23.8-inch ips hdmi dvi vga widescreen monitor",
@@ -658,7 +598,7 @@
       "price": 139.99,
       "status": "In Stock",
       "rating": 4.4,
-      "image": "https://example.com/monitor_image10.jpg"
+      "image": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/pd2700u/PD2705U-02-228x228.webp"
     }
   ]
 }

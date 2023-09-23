@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import Image5 from "@/assets/Icon/pws.png";
@@ -15,14 +16,24 @@ const PowerCard = ({ selectedProducts }) => {
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
-        <Image
-          style={{
-            width: "50px",
-            height: "50px",
-          }}
-          src={Image5}
-          alt="Shoes"
-        />
+        {selectedProducts[4] ? (
+          <img
+            width={80}
+            height={80}
+            src={selectedProducts[4].image}
+            alt="Image"
+            className="rounded-xl max-w-none"
+          />
+        ) : (
+          <Image
+            style={{
+              width: "50px",
+              height: "50px",
+            }}
+            src={Image5}
+            alt="Shoes"
+          />
+        )}
       </figure>
       <div className="card-body ">
         <div className="flex items-center justify-between">
@@ -34,6 +45,7 @@ const PowerCard = ({ selectedProducts }) => {
             <div>
               <p>{selectedProducts[4]?.title}</p>
               <p>{selectedProducts[4]?.name}</p>
+              <p>{selectedProducts[4]?.price}</p>
             </div>
           </div>
           {isProducts ? (

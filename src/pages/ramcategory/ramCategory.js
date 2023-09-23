@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/shared/navbar";
-import Image from "next/image";
 import Link from "next/link";
 
 const RamCategory = ({ allProduct }) => {
@@ -21,8 +21,10 @@ const RamCategory = ({ allProduct }) => {
               <div className="" key={product.id}>
                 <div className="card w-96 bg-base-100 shadow-xl">
                   <figure className="px-10 pt-10">
-                    <Image
-                      // src={product.image}
+                    <img
+                      width={200}
+                      height={200}
+                      src={product.image}
                       alt="Shoes"
                       className="rounded-xl"
                     />
@@ -32,11 +34,7 @@ const RamCategory = ({ allProduct }) => {
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
                       <button className="btn btn-sm btn-primary">
-                        <Link href={`/detail/${product.id}`}>
-                          <button className="btn btn-sm btn-primary">
-                            More Details
-                          </button>
-                        </Link>
+                        <Link href={`/detail/${product.id}`}>More Details</Link>
                       </button>
                     </div>
                   </div>
@@ -53,13 +51,13 @@ const RamCategory = ({ allProduct }) => {
 export default RamCategory;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:3000/api/products");
 
   const data = await res.json();
 
   return {
     props: {
-      allProduct: data,
+      allProduct: data.data,
     },
   };
 };

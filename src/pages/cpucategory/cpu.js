@@ -1,12 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Navbar from "@/components/shared/navbar";
-import { useGetProductsQuery } from "@/redux/api/api";
-import Image from "next/image";
 import Link from "next/link";
 
-const CpuCategory = () => {
-  const { data, isLoading, isError, error } = useGetProductsQuery();
-
-  const cpuProducts = data?.filter(
+const CpuCategory = ({ allProduct }) => {
+  const cpuProducts = allProduct?.filter(
     (product) => product.category === "Computer Processor"
   );
 
@@ -24,17 +21,18 @@ const CpuCategory = () => {
               <div className="" key={product.id}>
                 <div className="card w-96 bg-base-100 shadow-xl">
                   <figure className="px-10 pt-10">
-                    <Image
-                      // src={product.image}
+                    <img
+                      width={200}
+                      height={200}
+                      src={product.image}
                       alt="Shoes"
                       className="rounded-xl"
                     />
                   </figure>
                   <div className="card-body items-center text-center">
                     <h2 className="card-title">{product.title}</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div className="card-actions">
-                      <Link href={`/detail/${product.id}`}>
+                      <Link href={`/detail/${product._id}`}>
                         <button className="btn btn-sm btn-primary">
                           More Details
                         </button>
@@ -53,14 +51,14 @@ const CpuCategory = () => {
 
 export default CpuCategory;
 
-// export const getStaticProps = async () => {
-//   const res = await fetch("http://localhost:5000/products");
+export const getStaticProps = async () => {
+  const res = await fetch("http://localhost:3000/api/products");
 
-//   const data = await res.json();
+  const data = await res.json();
 
-//   return {
-//     props: {
-//       allProduct: data,
-//     },
-//   };
-// };
+  return {
+    props: {
+      allProduct: data.data,
+    },
+  };
+};

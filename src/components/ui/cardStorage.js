@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import Image4 from "@/assets/Icon/storage.png";
@@ -15,14 +16,24 @@ const CardStorage = ({ selectedProducts }) => {
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
-        <Image
-          style={{
-            width: "50px",
-            height: "50px",
-          }}
-          src={Image4}
-          alt="Shoes"
-        />
+        {selectedProducts[3] ? (
+          <img
+            width={80}
+            height={80}
+            src={selectedProducts[3].image}
+            alt="Image"
+            className="rounded-xl max-w-none"
+          />
+        ) : (
+          <Image
+            style={{
+              width: "50px",
+              height: "50px",
+            }}
+            src={Image4}
+            alt="Shoes"
+          />
+        )}
       </figure>
       <div className="card-body ">
         <div className="flex items-center justify-between">
@@ -34,6 +45,7 @@ const CardStorage = ({ selectedProducts }) => {
             <div>
               <p>{selectedProducts[3]?.title}</p>
               <p>{selectedProducts[3]?.name}</p>
+              <p>{selectedProducts[3]?.price}</p>
             </div>
           </div>
           {isProducts ? (

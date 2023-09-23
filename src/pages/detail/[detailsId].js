@@ -1,6 +1,5 @@
-import React from "react";
-// import Navbar from "../../Shared/navbar";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
+
 import Navbar from "@/components/shared/navbar";
 
 const DetailPage = ({ productDetail }) => {
@@ -11,13 +10,11 @@ const DetailPage = ({ productDetail }) => {
       <div className="bg-base-200">
         <div className="hero min-h-screen">
           <div className="hero-content flex-col lg:flex-row">
-            <div>
-              <Image
-                style={{
-                  width: "50px",
-                  height: "50px",
-                }}
-                // src={productDetail.image}
+            <div className="">
+              <img
+                width={300}
+                height={300}
+                src={productDetail.image}
                 alt="Shoes"
               />
             </div>
@@ -49,12 +46,12 @@ const DetailPage = ({ productDetail }) => {
 export default DetailPage;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
-  const details = await res.json();
-  console.log(details);
+  const res = await fetch("http://localhost:3000/api/details");
+  const products = await res.json();
+  console.log(products);
 
-  const paths = details.map((detail) => ({
-    params: { detailsId: detail.id + "" },
+  const paths = products.map((detail) => ({
+    params: { detailsId: detail._id },
   }));
 
   return { paths, fallback: false };
@@ -63,12 +60,14 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { params } = context;
 
-  const res = await fetch(`http://localhost:5000/products/${params.detailsId}`);
-  const data = await res.json();
+  const res = await fetch(
+    `http://localhost:3000/api/products/${params.detailsId}`
+  );
+  const products = await res.json();
 
   return {
     props: {
-      productDetail: data,
+      productDetail: products.data,
     },
   };
 };

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import Image1 from "@/assets/Icon/cpu.png";
@@ -16,14 +17,24 @@ const CpuCard = ({ selectedProducts }) => {
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
-        <Image
-          style={{
-            width: "50px",
-            height: "50px",
-          }}
-          src={Image1}
-          alt="Shoes"
-        />
+        {selectedProducts[0] ? (
+          <img
+            width={80}
+            height={80}
+            src={selectedProducts[0].image}
+            alt="Image"
+            className="rounded-xl max-w-none"
+          />
+        ) : (
+          <Image
+            style={{
+              width: "50px",
+              height: "50px",
+            }}
+            src={Image1}
+            alt="Shoes"
+          />
+        )}
       </figure>
       <div className="card-body ">
         <div className="flex items-center justify-between">

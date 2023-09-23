@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useSession, signOut } from "next-auth/react";
 
 const Navbar = () => {
+  const { data: session } = useSession();
   return (
     <div className="navbar">
       <div className="navbar-start">
@@ -80,7 +82,22 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar flex justify-between">
+        {session?.user ? (
+          <button
+            onClick={() => signOut()}
+            className="btn btn-xs btn-secondary ml-44 text-white"
+          >
+            logOut
+          </button>
+        ) : (
+          <Link href="/login">
+            <button className="btn btn-xs btn-secondary ml-44 text-white">
+              login
+            </button>
+          </Link>
+        )}
+
         <Link href="/pcbuilder/pcbuilderpage">
           <button className="btn btn-primary ">Pc Builder</button>
         </Link>

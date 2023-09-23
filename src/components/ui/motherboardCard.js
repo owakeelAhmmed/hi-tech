@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import Image2 from "@/assets/Icon/motherboard.png";
@@ -10,20 +11,30 @@ const MotherboardCard = ({ selectedProducts }) => {
   const isProducts = selectedProducts.length > 1;
 
   const handleRemoveFromCart = () => {
-    dispatch(removeFromCart(selectedProducts.id));
+    dispatch(removeFromCart());
   };
 
   return (
     <div className="flex justify-items-center-items-center ml-4 mr-4">
       <figure>
-        <Image
-          style={{
-            width: "50px",
-            height: "50px",
-          }}
-          src={Image2}
-          alt="Shoes"
-        />
+        {selectedProducts[1] ? (
+          <img
+            width={80}
+            height={80}
+            src={selectedProducts[1].image}
+            alt="Image"
+            className="rounded-xl max-w-none"
+          />
+        ) : (
+          <Image
+            style={{
+              width: "50px",
+              height: "50px",
+            }}
+            src={Image2}
+            alt="Shoes"
+          />
+        )}
       </figure>
       <div className="card-body ">
         <div className="flex items-center justify-between">
@@ -35,6 +46,7 @@ const MotherboardCard = ({ selectedProducts }) => {
             <div>
               <p>{selectedProducts[1]?.title}</p>
               <p>{selectedProducts[1]?.name}</p>
+              <p>{selectedProducts[1]?.price}</p>
             </div>
           </div>
           {isProducts ? (

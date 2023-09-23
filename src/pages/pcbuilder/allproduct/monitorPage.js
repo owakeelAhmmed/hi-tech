@@ -1,8 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
-import Image1 from "@/assets/Icon/cpu.png";
 import Navbar from "@/components/shared/navbar";
 import { addToProduct } from "@/redux/productSlice/productSlice";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 
@@ -29,13 +28,12 @@ const MonitorPage = ({ allProduct }) => {
             className="m-10 w-1200 h-200 flex justify-between items-center border p-4 bg-base-100 shadow-xl"
           >
             <div className="w-50 h-200 rounded-full bg-cover bg-center">
-              <Image
-                style={{
-                  width: "50px",
-                  height: "50px",
-                }}
-                src={Image1}
-                alt="Shoes"
+              <img
+                width={180}
+                height={180}
+                src={product.image}
+                alt="Image"
+                className="rounded-xl max-w-none"
               />
             </div>
             <div className="flex-grow w-600 p-4">
@@ -61,14 +59,14 @@ const MonitorPage = ({ allProduct }) => {
 
 export default MonitorPage;
 
-export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:3000/api/products");
 
   const data = await res.json();
 
   return {
     props: {
-      allProduct: data,
+      allProduct: data.data,
     },
   };
 };
