@@ -86,7 +86,7 @@ const Navbar = () => {
         {session?.user ? (
           <button
             onClick={() => signOut()}
-            className="btn btn-xs btn-secondary ml-44 text-white"
+            className="btn btn-xs btn-error ml-44 text-white"
           >
             logOut
           </button>

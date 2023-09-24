@@ -21,8 +21,7 @@ const LoginPage = () => {
             className="cursor-pointer"
             onClick={() =>
               signIn("github", {
-                callbackUrl:
-                  "https://hi-tech-psi.vercel.app/pcbuilder/pcbuilderpage",
+                callbackUrl: "https://hi-tech-psi.vercel.app/",
               })
             }
           />
